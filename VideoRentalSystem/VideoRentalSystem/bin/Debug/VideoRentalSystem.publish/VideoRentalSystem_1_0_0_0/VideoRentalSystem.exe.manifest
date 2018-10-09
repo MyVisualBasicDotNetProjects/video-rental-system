@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="VideoRentalSystem.exe" version="1.0.0.0" publicKeyToken="83836fee9ad7c7e2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VideoRentalSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VideoRentalSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VideoRentalSystem.exe" size="45056">
+      <assemblyIdentity name="VideoRentalSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Bih+y6BJFuPNSbqZkh+wbyPKHmY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Biny_Laptop\Biniam" issuerKeyHash="714b5b997bb4c37a48282238830893f36840a5cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1UV/Ku1s+vdQpCLe6N+mBoJEZxo=</DigestValue></Reference></SignedInfo><SignatureValue>h89+YHBTJn8xj1XKl948J2Ul3BH09eor96cA+N6ctuPlAkXaAmlNudLqr5XzfWPP3wDJZXSVOpn9F/DJhB630DTH8U6Oe3uy9mXkF+DsYWVcxhPJLC/VHefX/BlMa3L7PyI3XMTcCYR+b9e6K9ABSbQnKaxWpjJi4g93Hg6iHxc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zr/6A2UljiU6NzH3tjDTClnhK9d2BizCoft3vUS1WFqJy6rObDC6kmkSnMD/mhK9ykXrVaql+f8Y8UPw+UBiaI8Qi9Q+xUZl3XYt9ZEn1bSuhNKOHp3kSqPyl7W/QWbM3WbViXf09B9FusQ8FcU6NNMR2Hg3/q5HseB6V+Ez7sE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1a67448206a6dfe8de22a450f7fa6ced2a7f45d5" Description="" Url=""><as:assemblyIdentity name="VideoRentalSystem.exe" version="1.0.0.0" publicKeyToken="83836fee9ad7c7e2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Biny_Laptop\Biniam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8vLNu5hOc+ed5Y+WPSQMKfmWG9o=</DigestValue></Reference></SignedInfo><SignatureValue>EP0V6i0dPHPaxS3Leg58RT5aknOAyBGVeYBk46q9R6UnnUo6Ohdfmb7pGCIHzuxrzbr9nhrAcHHHFpfflybguvYir6gYskMVtnKpyoa2nMyETiGpdFir2+C4cWujwg9mq6AeYR/yJUIGk1FIlZ4vaNBWLodUigOQP1X307Q9Kac=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zr/6A2UljiU6NzH3tjDTClnhK9d2BizCoft3vUS1WFqJy6rObDC6kmkSnMD/mhK9ykXrVaql+f8Y8UPw+UBiaI8Qi9Q+xUZl3XYt9ZEn1bSuhNKOHp3kSqPyl7W/QWbM3WbViXf09B9FusQ8FcU6NNMR2Hg3/q5HseB6V+Ez7sE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQYpSdUia8d71NTnNKU7sUdTANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAQgBpAG4AeQBfAEwAYQBwAHQAbwBwAFwAQgBpAG4AaQBhAG0wHhcNMDgxMjA4MTExMTIxWhcNMDkxMjA4MTcxMTIxWjAvMS0wKwYDVQQDHiQAQgBpAG4AeQBfAEwAYQBwAHQAbwBwAFwAQgBpAG4AaQBhAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM6/+gNlJY4lOjcx97Yw0wpZ4SvXdgYswqH7d71EtVhaicuqzmwwupJpEpzA/5oSvcpF61Wqpfn/GPFD8PlAYmiPEIvUPsVGZd12LfWRJ9W0roTSjh6d5Eqj8pe1v0FmzN1m1Yl39PQfRbrEPBXFOjTTEdh4N/6uR7HgelfhM+7BAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAPuSsYfpxGOKoWG8P9K/K1tK2CDC2p23h+63MslLRQcwWXf3lZsd7fKeFcXo7Z5bXHr+n60dYNgT0ajGGPLhAQcFZmKiiakaR9ZuVpbdwA/pT1hxbsSHnfy9Rr0lBT9dZzltkH7CP2auWX0D/KOfXow9fCnbez4e7jKokxjAhlA8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

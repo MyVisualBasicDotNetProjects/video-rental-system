@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E61F9CA-5B46-4F97-BB2C-530AB19D498C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VideoRentalSystem.My.MyApplication</StartupObject>
+    <RootNamespace>VideoRentalSystem</RootNamespace>
+    <AssemblyName>VideoRentalSystem</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ManifestCertificateThumbprint>C33FA32AB9242FBD0BDF26E329A83C4CE2DF061B</ManifestCertificateThumbprint>
+    <ManifestKeyFile>VideoRentalSystem_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>VRS Icon.ico</ApplicationIcon>
+    <PublishUrl>C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Video Rental System Setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>Video Rental System</ProductName>
+    <PublisherName>Success PLC</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <BootstrapperComponentsUrl>C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Dot Net Framework 2.0 Setup</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VideoRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VideoRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Change Password.Designer.vb">
+      <DependentUpon>Change Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create User Account.Designer.vb">
+      <DependentUpon>Create User Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create User Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Login.Designer.vb">
+      <DependentUpon>User Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Change Password.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Change Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create User Account.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Create User Account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>User Login.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenO ~dulla^@204~ ~dulla^@204~ emGroup>
+  <ItemGroup>
+    <Bootstr~dulla^@204~ Include="Microsoft.Net.Framework.2.0"~dulla^@204~ ible>False</Visible>
+      <ProductN~dulla^@204~ ework 2.0</ProductName>
+      <Insta~dulla^@204~ all>
+    </BootstrapperPackage>
+  <~dulla^@204~   <ItemGroup>
+    <Service Include="~dulla^@204~ C-4609-AB67-0FA40C0206D8}" />
+  </It~dulla^@204~ ItemGroup>
+    <None Include="Resour~dulla^@204~ png" />
+  </ItemGroup>
+  <ItemGroup~dulla^@204~ Include="Resources\Movie Reservation1~dulla^@204~ /ItemGroup>
+  <ItemGroup>
+    <None~dulla^@204~ ources\Rent Movie1.png" />
+  </ItemG~dulla^@204~ mGroup>
+    <None Include="Resources~dulla^@204~ ng" />
+  </ItemGroup>
+  <ItemGroup>~dulla^@204~ nclude="Resources\Return Movie.png" /~dulla^@204~ oup>
+  <ItemGroup>
+    <None Includ~dulla^@204~ Show Revenue.png" />
+  </ItemGroup>~dulla^@204~ >
+    <None Include="Resources\Home1~dulla^@204~ /ItemGroup>
+  <ItemGroup>
+    <None~dulla^@204~ ources\Customer Search.png" />
+  </I~dulla^@204~ <ItemGroup>
+    <None Include="Resou~dulla^@204~ arch1.png" />
+  </ItemGroup>
+  <Ite~dulla^@204~ <None Include="Resources\Welcome with~dulla^@204~ 
+  </ItemGroup>
+  <ItemGroup>
+    ~dulla^@204~ ="Resources\About2.png" />
+  </ItemG~dulla^@204~ mGroup>
+    <None Include="Resources~dulla^@204~ ialable.png" />
+  </ItemGroup>
+  <I~dulla^@204~   <None Include="Resources\Splash.png~dulla^@204~ mGroup>
+  <ItemGroup>
+    <None Inc~dulla^@204~ es\Movie Rate.png" />
+  </ItemGroup>~dulla^@204~ p>
+    <None Include="Resources\Crea~dulla^@204~ nt.png" />
+  </ItemGroup>
+  <ItemGr~dulla^@204~ ne Include="Resources\Change Password~dulla^@204~ /ItemGroup>
+  <ItemGroup>
+    <None~dulla^@204~ ources\login.jpg" />
+  </ItemGroup>~dulla^@204~ >
+    <None Include="Resources\btnHo~dulla^@204~    <None Include="Resources\HelpIcon.~dulla^@204~ <None Include="Resources\HelpFrontPag~dulla^@204~    <None Include="Resources\Help3.png~dulla^@204~ ntent Include="VRS Icon.ico" />
+  </~dulla^@204~  <Import Project="$(MSBuildBinPath)\M~dulla^@204~ alBasic.targets" />
+  <!-- To modify~dulla^@204~ rocess, add your task inside one of t~dulla^@204~ low and uncomment it. 
+       Other ~dulla^@204~ sion points exist, see Microsoft.Comm~dulla^@204~   <Target Name="BeforeBuild">
+  </Ta~dulla^@204~ get Name="AfterBuild">
+  </Target>
+  -->
+</Project>
