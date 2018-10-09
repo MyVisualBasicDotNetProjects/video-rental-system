@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Biniam\Desktop\VRS 1.0.0 - Trial Version%28Final%29\|C:\Users\Biniam\Desktop\Video Rental System 1.0.0 - Trial Version\|C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Video Rental System - Trial Version\|C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Video Rental System Setup2\|C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Video Rental System Setup\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>C:\Users\Biniam\Documents\Visual Studio 2005\Projects\VideoRentalSystem\Dot Net Framework 2.0 Setup</BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ReferencePath>c:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\</ReferencePath>
+    <ErrorReportUrlHistory />
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>
